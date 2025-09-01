@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.545);
+    font-size: 8vmin;
+    color: chocolate;
+    background-color: aliceblue;
+}
+#reset{
+    padding: 2vmin;
+    font-size: 2vmin;
+    color:#132e39;
+    font-weight: 800;
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(115, 175, 213, 0.534);
+    cursor: pointer;
+}
+#new{
+    padding: 2vmin;
+    font-size: 2vmin;
+    color:#132e39;
+    font-weight: 800;
+    font-family: "Roboto", sans-serif;
+    background-color: rgba(115, 175, 213, 0.534);
+    cursor: pointer;
+}
+#win{
+    color: beige;
+    font-size: 6vmin;
+    font-family: "Roboto", sans-serif;
+}
+.msg{
+    height: 20vmin;
+}
+.hide{
+    display: none;
+}
